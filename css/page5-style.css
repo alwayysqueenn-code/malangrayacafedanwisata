@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/bcafealamraya.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Funnel Display', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.lamlam {
+    color: #064635;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.hijo {
+    color: #00721c;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.text-left {
+    position: fixed;
+    top: 150px;
+    left: 80px;
+    color: white;
+}
+
+.mlg {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.mlg2 {
+    font-size: 18px;
+    margin-top: -70px;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: rgb(131, 29, 4);
+    color: white;
+    width: 220px;
+    height: 58px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn span {
+    margin-left: 80px;
+}
+
+.btn:hover {
+    background: #240202;
+    transform: scale(1.1);
+}
+
+.content {
+    margin-left: 820px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.kotak-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.kotak-img {
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
+}
+
+.kotak-text {
+    max-width: 600px;
+}
+
+.judul {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.desc {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.buttonn {
+    background-color: rgb(127, 175, 141);
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.buttonn:hover {
+    background-color: rgb(1, 45, 48);
+    transform: scale(1.1);
+}
+
+.buttonns {
+    background-color: rgb(238, 237, 162);
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.buttonns:hover {
+    background-color: rgb(77, 87, 43);
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    padding: 15px 0;
+    background: rgba(228, 225, 225, 0.3);
+    border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 20px;   
+}
+
+.footer-row a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px white;
+    font-size: 16px;
+}
+
+.icon {
+    width: 70px;
+    height: auto;
+}
+
+.icon2 {
+    margin-left: 8px;
+    width: 50px;
+    height: auto;
+}
+
+.icon3 {
+    width: 70px;
+    height: auto;
+}

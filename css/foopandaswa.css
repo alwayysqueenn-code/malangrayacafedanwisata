@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("GRIDPADASS.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* penuh 1 layar */
+}
+
+.buttonn {
+    background-color: rgb(221, 40, 40);
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttonn:hover {
+    background-color: rgb(80, 13, 13);
+    transform: scale(1.1);
+}
+
